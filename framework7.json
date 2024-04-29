@@ -1,0 +1,41 @@
+{
+  "cwd": "/home/master/Desktop/chat",
+  "type": [
+    "web",
+    "capacitor"
+  ],
+  "name": "ChatGTT",
+  "framework": "svelte",
+  "template": "blank",
+  "bundler": "vite",
+  "cssPreProcessor": "less",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": false
+  },
+  "customBuild": true,
+  "customBuildConfig": {
+    "rtl": false,
+    "darkTheme": true,
+    "lightTheme": true,
+    "themes": [
+      "md",
+      "ios"
+    ],
+    "components": [
+      "panel",
+      "input",
+      "skeleton",
+      "photo-browser"
+    ]
+  },
+  "pkg": "io.framework7.myapp",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
